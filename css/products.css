@@ -1,0 +1,49 @@
+.page-header{
+
+    padding:60px 0;
+
+    background:#F8FAFC;
+
+    margin-top:20px;
+
+}
+
+.shop{
+
+    padding:60px 0;
+
+}
+
+.shop-layout{
+
+    display:grid;
+
+    grid-template-columns:280px 1fr;
+
+    gap:40px;
+
+}
+
+.sidebar{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    border:1px solid #E5E7EB;
+
+    height:fit-content;
+
+}
+
+.shop-products{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:25px;
+
+}
