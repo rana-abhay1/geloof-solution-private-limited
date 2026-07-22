@@ -40,10 +40,234 @@
 
 .shop-products{
 
+    display:flex;
+
+    flex-direction:column;
+
+    width:100%;
+
+}
+
+/* ======================
+      TOOLBAR
+====================== */
+
+.shop-toolbar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:30px;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.toolbar-right{
+
+    display:flex;
+
+    gap:15px;
+
+    flex-wrap:wrap;
+
+    margin-left:auto;
+
+}
+
+.toolbar-right input{
+
+    width:min(260px, 100%);
+
+    flex:1 1 220px;
+
+    padding:12px 15px;
+
+    border:1px solid #CBD5E1;
+
+    border-radius:8px;
+
+    outline:none;
+
+}
+
+.toolbar-right select{
+
+    padding:12px;
+
+    border:1px solid #CBD5E1;
+
+    border-radius:8px;
+
+    outline:none;
+
+    min-width:180px;
+
+}
+
+/* ======================
+      SIDEBAR
+====================== */
+
+.sidebar hr{
+
+    margin:20px 0;
+
+    border:none;
+
+    border-top:1px solid #E2E8F0;
+
+}
+
+.sidebar h4{
+
+    margin-bottom:15px;
+
+}
+
+.sidebar label{
+
+    display:block;
+
+    margin-bottom:12px;
+
+    cursor:pointer;
+
+    color:#475569;
+
+}
+
+.sidebar input{
+
+    margin-right:10px;
+
+}
+
+.clear-filter{
+
+    width:100%;
+
+    margin-top:20px;
+
+    padding:12px;
+
+    border:none;
+
+    background:#2563EB;
+
+    color:white;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}
+
+/* ======================
+      PRODUCT GRID
+====================== */
+
+.product-grid{
+
     display:grid;
 
-    grid-template-columns:repeat(3,1fr);
+    grid-template-columns:repeat(3, minmax(0, 1fr));
 
     gap:25px;
+
+    width:100%;
+
+}
+
+@media (max-width: 900px) {
+
+    .shop-layout{
+        grid-template-columns:1fr;
+    }
+
+    .product-grid{
+        grid-template-columns:repeat(2, minmax(0, 1fr));
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .shop-toolbar{
+        align-items:stretch;
+    }
+
+    .toolbar-right{
+        width:100%;
+        margin-left:0;
+    }
+
+    .toolbar-right input,
+    .toolbar-right select{
+        width:100%;
+    }
+
+    .product-grid{
+        grid-template-columns:1fr;
+    }
+
+}
+
+.in-stock{
+
+    color:#16A34A;
+
+    font-weight:600;
+
+    margin-bottom:15px;
+
+}
+
+.out-stock{
+
+    color:#DC2626;
+
+    font-weight:600;
+
+    margin-bottom:15px;
+
+}
+
+/* ==========================
+      NO PRODUCTS
+========================== */
+
+.no-products{
+
+    grid-column:1/-1;
+
+    text-align:center;
+
+    padding:60px 20px;
+
+    background:#fff;
+
+    border:1px solid #E5E7EB;
+
+    border-radius:15px;
+
+}
+
+.no-products h2{
+
+    margin-bottom:10px;
+
+    color:#1E293B;
+
+}
+
+.no-products p{
+
+    color:#64748B;
 
 }

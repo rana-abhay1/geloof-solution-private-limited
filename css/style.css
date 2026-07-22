@@ -17,6 +17,10 @@ body{
 
 /* Top Bar */
 
+a{
+    text-decoration:none;
+}
+
 .top-bar{
 
     background:#0F172A;
@@ -112,6 +116,7 @@ header{
     display:flex;
     gap:25px;
     font-size:22px;
+    position: sticky;
 
 }
 

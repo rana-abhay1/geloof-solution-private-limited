@@ -62,7 +62,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-wifi-icon lucide-wifi"><path d="M12 20h.01"/><path d="M2 8.82a15 15 0 0 1 20 0"/><path d="M5 12.859a10 10 0 0 1 14 0"/><path d="M8.5 16.429a5 5 0 0 1 7 0"/></svg>
 
-                <span>Geloof Solution</span>
+                <span><a href="index.html">Geloof Solution</a></span>
 
                 <p style="font-size: small; margin-left: 25px;">
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin-icon lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
@@ -121,11 +121,11 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 
             <ul>
 
-                <li><a href="products.html">All Categories</a></li>
+                <li><a href="#">All Categories</a></li>
 
                 <li><a href="#">Servers</a></li>
 
-                <li><a href="#">Networking</a></li>
+                <li><a href="products.html#networking">Networking</a></li>
 
                 <li><a href="#">Storage</a></li>
 
@@ -177,13 +177,99 @@ Networking
 
 <h3>Filters</h3>
 
+<hr>
+
+<h4>Brands</h4>
+
+<label>
+    <input type="checkbox" class="brand-filter" value="Cisco">
+    Cisco
+</label>
+
+<label>
+    <input type="checkbox" class="brand-filter" value="Dell">
+    Dell
+</label>
+
+<label>
+    <input type="checkbox" class="brand-filter" value="Fortinet">
+    Fortinet
+</label>
+
+<label>
+    <input type="checkbox" class="brand-filter" value="HPE">
+    HPE
+</label>
+
+<hr>
+
+<h4>Availability</h4>
+
+<label>
+    <input type="checkbox" id="inStock">
+    In Stock
+</label>
+
+<label>
+    <input type="checkbox" id="outStock">
+    Out of Stock
+</label>
+
+<hr>
+
+<button class="clear-filter" id="clearFilters">
+
+Clear Filters
+
+</button>
+
 </aside>
 
 
 
 <!-- Products -->
 
-<div class="shop-products" id="product-list">
+<div class="shop-products" id="shop-products">
+    <div class="shop-toolbar">
+
+    <div class="results">
+
+        Showing <strong>4</strong> Products
+
+    </div>
+
+    <div class="toolbar-right">
+
+        <input
+            type="text"
+            id="searchProduct"
+            placeholder="Search products...">
+
+        <select id="sortProducts">
+
+            <option value="default">
+                Sort By
+            </option>
+
+            <option value="low-high">
+                Price : Low to High
+            </option>
+
+            <option value="high-low">
+                Price : High to Low
+            </option>
+
+            <option value="name">
+                Name (A-Z)
+            </option>
+
+        </select>
+
+    </div>
+
+</div>
+
+<div class="product-grid" id="product-list"></div>
 
 </div>
 
