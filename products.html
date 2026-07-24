@@ -94,17 +94,17 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
                     <i class="fa-regular fa-user"></i>
                 </a>
 
-                <a href="#">
-                    <i class="fa-regular fa-heart"></i>
+                <a href="https://wa.me/919716432591" target= "_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
                 </a>
 
-                <a href="#" class="cart">
+                <!-- <a href="#" class="cart">
 
                     <i class="fa-solid fa-cart-shopping"></i>
 
                     <span>2</span>
 
-                </a>
+                </a> -->
 
             </div>
 
@@ -121,11 +121,31 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 
             <ul>
 
-                <li><a href="#">All Categories</a></li>
+                <li><a href="index.html#category">All Categories</a></li>
+
+                <li><a href="#">About</a></li>
+
+                <li class="services-item">
+                    <button class="services-toggle" type="button" aria-expanded="false">
+                        Our Services
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+
+                    <div class="services-dropdown" id="servicesDropdown">
+                        <a href="#">IT Infrastructure Consultancy</a>
+                        <a href="#">Data Center Designing and Installation</a>
+                        <a href="#">Structured Cabling</a>
+                        <a href="#">Wireless Networking</a>
+                        <a href="#">Server and Storage Management</a>
+                        <a href="#">Network Management</a>
+                        <a href="#">Optical Fiber Cabling Services</a>
+                        <a href="#">Other IT Services</a>
+                    </div>
+                </li>
 
                 <li><a href="#">Servers</a></li>
 
-                <li><a href="products.html#networking">Networking</a></li>
+                <li><a href="#">Networking</a></li>
 
                 <li><a href="#">Storage</a></li>
 
@@ -134,10 +154,6 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
                 <li><a href="#">Wireless</a></li>
 
                 <li><a href="#">CCTV</a></li>
-
-                <li><a href="#">Deals</a></li>
-
-                <li><a href="#">About</a></li>
 
                 <li><a href="#">Contact</a></li>
 
@@ -151,13 +167,12 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 
 <div class="container">
 
-<h1>Networking Products</h1>
+<h1>All Products</h1>
 
 <p>
 
-Home /
+    <a href="index.html">Home</a> /
 
-Networking
 
 </p>
 
@@ -187,8 +202,23 @@ Networking
 </label>
 
 <label>
+    <input type="checkbox" class="brand-filter" value="Lenovo">
+    Lenovo
+</label>
+
+<label>
     <input type="checkbox" class="brand-filter" value="Dell">
     Dell
+</label>
+
+<label>
+    <input type="checkbox" class="brand-filter" value="Acer">
+    Acer
+</label>
+
+<label>
+    <input type="checkbox" class="brand-filter" value="AMD">
+    AMD
 </label>
 
 <label>
@@ -199,6 +229,36 @@ Networking
 <label>
     <input type="checkbox" class="brand-filter" value="HPE">
     HPE
+</label>
+
+<label>
+    <input type="checkbox" class="brand-filter" value="Panduit">
+    Panduit
+</label>
+
+<label>
+    <input type="checkbox" class="brand-filter" value="Generic">
+    Generic
+</label>
+
+<label>
+    <input type="checkbox" class="brand-filter" value="Aruba">
+    Aruba
+</label>
+
+<label>
+    <input type="checkbox" class="brand-filter" value="TP-Link">
+    TP-Link
+</label>
+
+<label>
+    <input type="checkbox" class="brand-filter" value="Cablewise">
+    Cablewise
+</label>
+
+<label>
+    <input type="checkbox" class="brand-filter" value="Derwiser">
+    Derwiser
 </label>
 
 <hr>
@@ -463,7 +523,7 @@ Clear Filters
                 </li>
 
 
-            </ul>
+            </ul>Our Se
 
 
         </div>
@@ -497,7 +557,7 @@ Clear Filters
 
 </footer>
 
-<script src="js/scripts.js"></script>
+<script src="js/script.js"></script>
 <script src="js/products-data.js"></script>
 <script src="js/products.js"></script>
 

@@ -1,6 +1,23 @@
 document.addEventListener('DOMContentLoaded', () => {
     const heroSlide = document.querySelector('.hero-slide');
     const caption = document.querySelector('.hero-slide-caption');
+    const servicesItem = document.querySelector('.services-item');
+    const servicesToggle = document.querySelector('.services-toggle');
+
+    if (servicesItem && servicesToggle) {
+        servicesToggle.addEventListener('click', (event) => {
+            event.stopPropagation();
+            const isOpen = servicesItem.classList.toggle('is-open');
+            servicesToggle.setAttribute('aria-expanded', String(isOpen));
+        });
+
+        document.addEventListener('click', (event) => {
+            if (!servicesItem.contains(event.target)) {
+                servicesItem.classList.remove('is-open');
+                servicesToggle.setAttribute('aria-expanded', 'false');
+            }
+        });
+    }
 
     if (!heroSlide || !caption) return;
 

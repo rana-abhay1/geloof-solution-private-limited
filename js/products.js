@@ -20,10 +20,89 @@
 const productList = document.getElementById("product-list");
 const searchInput = document.getElementById("searchProduct");
 const resultsCount = document.querySelector(".results strong");
+const PAGE_SIZE = 24;
+let filteredProducts = [...products];
+let renderedCount = 0;
+let loadMoreButton = null;
+
+function createProductCard(product) {
+
+    const card = document.createElement("div");
+    card.className = "product-card";
+
+    const imageWrap = document.createElement("div");
+    imageWrap.className = "product-image";
+
+    const image = document.createElement("img");
+    image.src = product.image;
+    image.alt = product.name;
+    image.loading = "lazy";
+    image.decoding = "async";
+
+    imageWrap.appendChild(image);
+
+    const info = document.createElement("div");
+    info.className = "product-info";
+
+    const brand = document.createElement("span");
+    brand.className = "brand";
+    brand.textContent = product.brand;
+
+    const title = document.createElement("h3");
+    title.textContent = product.name;
+
+    const rating = document.createElement("div");
+    rating.className = "rating";
+    rating.textContent = "★".repeat(product.rating);
+
+    const stock = document.createElement("p");
+    stock.className = product.stock ? "in-stock" : "out-stock";
+    stock.textContent = product.stock ? "✔ In Stock" : "✖ Out of Stock";
+
+    const button = document.createElement("button");
+    button.textContent = "View Details";
+
+    info.append(brand, title, rating, stock, button);
+    card.append(imageWrap, info);
+
+    return card;
+}
+
+function renderChunk(items, startIndex) {
+
+    const fragment = document.createDocumentFragment();
+    const endIndex = Math.min(startIndex + PAGE_SIZE, items.length);
+
+    for (let i = startIndex; i < endIndex; i++) {
+        fragment.appendChild(createProductCard(items[i]));
+    }
+
+    productList.appendChild(fragment);
+    renderedCount = endIndex;
+
+    if (loadMoreButton) {
+        loadMoreButton.remove();
+    }
+
+    if (items.length > renderedCount) {
+        loadMoreButton = document.createElement("button");
+        loadMoreButton.className = "load-more-btn";
+        loadMoreButton.textContent = "Load More";
+        loadMoreButton.addEventListener("click", () => {
+            renderChunk(items, renderedCount);
+        });
+        productList.insertAdjacentElement("afterend", loadMoreButton);
+    }
+}
 
 function displayProducts(items) {
 
-    productList.innerHTML = "";
+    filteredProducts = [...items];
+    renderedCount = 0;
+
+    if (productList) {
+        productList.innerHTML = "";
+    }
 
     if (resultsCount) {
         resultsCount.textContent = items.length;
@@ -36,41 +115,16 @@ function displayProducts(items) {
                 <p>Try searching with a different keyword.</p>
             </div>
         `;
+
+        if (loadMoreButton) {
+            loadMoreButton.remove();
+            loadMoreButton = null;
+        }
+
         return;
     }
 
-    items.forEach(product => {
-
-        productList.innerHTML += `
-
-        <div class="product-card">
-
-            <div class="product-image">
-                <img src="${product.image}" alt="${product.name}">
-            </div>
-
-            <div class="product-info">
-
-                <span class="brand">${product.brand}</span>
-
-                <h3>${product.name}</h3>
-
-                <div class="rating">
-                    ${"★".repeat(product.rating)}
-                </div>
-
-                <p class="${product.stock ? 'in-stock' : 'out-stock'}">
-                    ${product.stock ? "✔ In Stock" : "✖ Out of Stock"}
-                </p>
-
-                <button>View Details</button>
-
-            </div>
-
-        </div>
-
-        `;
-    });
+    renderChunk(items, 0);
 
 }
 
