@@ -59,10 +59,6 @@ function displayProducts(items) {
                     ${"★".repeat(product.rating)}
                 </div>
 
-                <div class="price">
-                    ₹${product.price.toLocaleString()}
-                </div>
-
                 <p class="${product.stock ? 'in-stock' : 'out-stock'}">
                     ${product.stock ? "✔ In Stock" : "✖ Out of Stock"}
                 </p>
