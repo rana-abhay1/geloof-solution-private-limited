@@ -7,7 +7,7 @@ const products = [
         category:"Networking",
         price:45000,
         stock:true,
-        image:"img/products/networkSwitch.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.cisco.com%2Fc%2Fdam%2Fassets%2Fsupport%2Fproduct-images%2Fseries%2Fswitches-catalyst-9200-series-switches-alternate1.jpg&f=1&nofb=1&ipt=fbfbe8b6adf350c935a3313a5060dde0424f2a9dd6f453e0ea72ee780ca79044",
         rating:5
     },
 
@@ -18,7 +18,7 @@ const products = [
         category:"Servers",
         price:125000,
         stock:true,
-        image:"img/products/dellServer.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.dell.com%2Fsites%2Fcsimages%2FProduct_Imagery%2Fall%2Fpoweredge-r750-W480.png&f=1&nofb=1&ipt=d618442e6ac7425c72432a58373325992df5912cf4ddf74f1793b802c3462714",
         rating:5
     },
 
@@ -39,8 +39,8 @@ const products = [
         brand:"HPE",
         category:"Storage",
         price:180000,
-        stock:false,
-        image:"img/products/servers.png",
+        stock:true,
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fuploads-ssl.webflow.com%2F6330840fd726c770a6cfdd2e%2F634406fef451fc15b0b30a71_HPE%2520MSA%25202050%25201.png&f=1&nofb=1&ipt=1180d89a345cc2b8289ed6d2bdc193602fa61f1109dfc88541b494aecdbede75",
         rating:5
     },
 
@@ -51,7 +51,7 @@ const products = [
         category:"Networking",
         price:6000,
         stock:true,
-        image:"img/products/router.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F41mUpxTsEoL._AC_SL1000_.jpg&f=1&nofb=1&ipt=6b808842477570225fcd920b6401fa1e3d839ceb2d259889ea83644231bde488",
         rating:4
     },
 
@@ -62,7 +62,7 @@ const products = [
         category:"Wireless",
         price:12000,
         stock:true,
-        image:"img/products/netDevice.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.bhphotovideo.com%2Fimages%2Ffb%2Fubiquiti_networks_u6_us_unifi_u6_access_point_1780284.jpg&f=1&nofb=1&ipt=1d8053604b6bcfc59dfd9b58118563df6050540abcdc5bc5d3ee6f7fd6109079",
         rating:5
     },
 
@@ -73,7 +73,7 @@ const products = [
         category:"Networking",
         price:3500,
         stock:true,
-        image:"img/products/fiberOpt.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffiberoptic.is%2Fwp-content%2Fuploads%2F2025%2F05%2F15-in-1.jpg&f=1&nofb=1&ipt=c0f71f21e59da88babac2657627258a66dec8bbc95df1976f84b78839c9f9fa0",
         rating:4
     },
 
@@ -83,8 +83,8 @@ const products = [
         brand:"Panduit",
         category:"Networking",
         price:2800,
-        stock:false,
-        image:"img/products/lanCable.png",
+        stock:true,
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi5.walmartimages.com%2Fseo%2FCmple-5-PACK-7-Feet-Cat6-Ethernet-Cable-10-Gigabit-Network-Cord-Cat6-Cable-Ethernet-Patch-Cable-Computer-LAN-Internet-Cable-Snagless-RJ45-Connectors_e1b83e33-0a5c-4d62-9cab-0bf2f1e83e3f.ced0324cf253fe19c6448c19db9d9d57.jpeg&f=1&nofb=1&ipt=cde583537d7c5ea1c9d6c597495c91fc71f863759bb8483a05e2bd3bf7df86d8",
         rating:3
     },
 
@@ -95,7 +95,7 @@ const products = [
         category:"Accessories",
         price:120,
         stock:true,
-        image:"img/products/lanCable.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.V7WmRVJ9eC2KsOoVzs_xTAHaE8%3Fr%3D0%26pid%3DApi&f=1&ipt=b612b7315092ce439721afddc1c63fa25383cae985b81e0c8c1352fda040ea06",
         rating:4
     },
 
@@ -106,7 +106,7 @@ const products = [
         category:"Accessories",
         price:180,
         stock:true,
-        image:"img/products/fiberOpt.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpdg.cef.co.uk%2Fimages%2Fpdg%2Fcentaur_hg25w%2Foriginal%2Fcentaur_hg25w.jpg&f=1&nofb=1&ipt=4a64bad3a36feeecee8d68a984dd3ebaa008e518c871a4ad3e0482808d409e2d",
         rating:4
     },
 
@@ -117,7 +117,7 @@ const products = [
         category:"Accessories",
         price:450,
         stock:true,
-        image:"img/products/netDevice.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.jHnJWiCidJRndzl2YIBSpgHaHa%3Fr%3D0%26pid%3DApi&f=1&ipt=e9939bd56b6f84e3aaa08f89ed1fac686fb82d8b58c5c34981e62bb07ac63478",
         rating:4
     },
 
@@ -128,7 +128,7 @@ const products = [
         category:"Server",
         price:290000,
         stock:true,
-        image:"img/products/servers.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.xbsasia.ph%2Fwp-content%2Fuploads%2F2025%2F01%2Fd54f5cadcf5652cf2b4d7c9787323e2e.jpg&f=1&nofb=1&ipt=35324deb3226327c20eaae79d092981f7953f2ba36de4d7d05ce8f89528b6a21",
         rating:5
     },
 
@@ -139,7 +139,7 @@ const products = [
         category:"Laptop",
         price:68000,
         stock:true,
-        image:"img/products/dellServer.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvishalperipherals.com%2Fcdn%2Fshop%2Ffiles%2Fframe-1_10_un.u2jsi.004.jpg%3Fv%3D1761550393%26width%3D1100&f=1&nofb=1&ipt=254bde982a6238fa5c43370d56cacf6963165c3a1892ac2a07b87f579ca650b1",
         rating:4
     },
 
@@ -150,7 +150,7 @@ const products = [
         category:"Software",
         price:9200,
         stock:true,
-        image:"img/products/router.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.87Mjs9CVAq4puuZwYSql5wHaHa%3Fr%3D0%26pid%3DApi&f=1&ipt=279eb03acb57d2d55cfdf8cc7e530ffc5420ada7c85a6667cbc1839d404a9537",
         rating:4
     },
 
@@ -161,7 +161,7 @@ const products = [
         category:"Networking",
         price:58000,
         stock:true,
-        image:"img/products/networkSwitch.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.rimaelektronik.com%2Fimages%2Fstories%2Fvirtuemart%2Fproduct%2FAllied%2520Telesis%2520AT%2520x230%252028GP%252050.jpg&f=1&nofb=1&ipt=ee6d9dc0323779c3e20aaefacb84d421c57b7de0008061b76e077a518c4a6eb5",
         rating:5
     },
 
@@ -172,7 +172,7 @@ const products = [
         category:"Networking",
         price:11500,
         stock:true,
-        image:"img/products/router.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fc1.neweggimages.com%2FProductImage%2FA98C_1_20170616901668158.jpg&f=1&nofb=1&ipt=a47e60df5d46de05014c184c5ae107bf89ebc7bb5c34cbc5be835db787da6b02",
         rating:4
     },
 
@@ -194,7 +194,7 @@ const products = [
         category:"Server",
         price:190000,
         stock:true,
-        image:"img/products/servers.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOIP.jdkn5AHXUfht7l6qQTz9lAHaHa%3Fr%3D0%26pid%3DApi&f=1&ipt=8c8ebb0c80fa8897d63fa59473a8b70efec5c564913b6758ef0cf3b95e353613",
         rating:5
     },
 
@@ -205,7 +205,7 @@ const products = [
         category:"Power",
         price:14500,
         stock:true,
-        image:"img/products/firewall.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.bhphotovideo.com%2Fimages%2Fimages1000x1000%2FAPC_smc1000_Smart_UPS_C_1000VA_with_887745.jpg&f=1&nofb=1&ipt=a6ff3b1a1c7088c8f8e90fdb10d4fbc86dcabba5b62f49bab995fb44c0616473",
         rating:4
     },
 
@@ -216,7 +216,7 @@ const products = [
         category:"Power",
         price:76000,
         stock:true,
-        image:"img/products/firewall.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F5.imimg.com%2Fdata5%2FSELLER%2FDefault%2F2021%2F2%2FCM%2FGT%2FKW%2F66089194%2Fapc-srv6ki-6-0-kva-easy-online-ups-1000x1000.jpg&f=1&nofb=1&ipt=cf84c884aba7e07215e5ba990ca549462a73b1817e0237e7323f5812a6815e32",
         rating:5
     },
 
@@ -227,7 +227,7 @@ const products = [
         category:"Power",
         price:22000,
         stock:true,
-        image:"img/products/firewall.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F81emXNO7rSL._AC_.jpg&f=1&nofb=1&ipt=1ab4b577152c029c5d9640ca15be86513971ed5ce3a5e8d951f0a92a0554ea23",
         rating:4
     },
 
@@ -238,7 +238,7 @@ const products = [
         category:"Power",
         price:41000,
         stock:true,
-        image:"img/products/firewall.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftecnit.com.ec%2Fwp-content%2Fuploads%2F2021%2F05%2FUps-Apc-On-line-Easy-Srv3ka-3000va-3kva-2400w-4-Tomas-120v-768x768.jpg&f=1&nofb=1&ipt=95de60a434c44d12125ed122c9051d256b9c24987dff5964a2feab2da92a589b",
         rating:4
     },
 
@@ -249,7 +249,7 @@ const products = [
         category:"Rack",
         price:8200,
         stock:true,
-        image:"img/products/servers.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F5.imimg.com%2Fdata5%2FSELLER%2FDefault%2F2023%2F5%2F311842008%2FFC%2FRN%2FUT%2F83344193%2Fapc-apw-make-server-network-rack-500x500.jpg&f=1&nofb=1&ipt=fb4b8c9bcc8a4ab7a8789f573a0ec0f87d32650d8a32dc1fb679b02fbe1ca900",
         rating:4
     },
 
@@ -260,7 +260,7 @@ const products = [
         category:"Networking",
         price:67000,
         stock:true,
-        image:"img/products/networkSwitch.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimage01.idefix.com%2Fresize%2F1500%2F0%2Fproduct%2F3173283%2Faruba-24port-370w-full-poe-instant-on-1930-24g-jl684a-gigabit-4xsfp-yonetilebilir-switch-rackmount-66bcdc13ba2c0.jpg&f=1&nofb=1&ipt=10de51bbecb8b9b6caeb3cef7f52ee83565c309f3c61a737e216a92503b95aa8",
         rating:5
     },
 
@@ -271,7 +271,7 @@ const products = [
         category:"Wireless",
         price:26000,
         stock:true,
-        image:"img/products/netDevice.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.incehesap.com%2Fresim%2Ficerik%2F6038b1efb06ad.png&f=1&nofb=1&ipt=5ffbb097f8dd8657b0024e37dd7bbce51fe601661623e75129841e188a497e53",
         rating:4
     },
 
@@ -282,7 +282,7 @@ const products = [
         category:"Wireless",
         price:32000,
         stock:true,
-        image:"img/products/netDevice.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0605%2F0136%2F0804%2Ffiles%2FSEO2_06a6a41d-6083-4fa4-8d2a-6ea670efdc35.png%3Fv%3D1656666000&f=1&nofb=1&ipt=9c644e2642cb14b311dafa3427440235937ece0483d0dca2cd8ea303f30df923",
         rating:5
     },
 
@@ -293,7 +293,7 @@ const products = [
         category:"Networking",
         price:51000,
         stock:true,
-        image:"img/products/networkSwitch.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.cs.1worldsync.com%2Fsyndication%2Ffeeds%2Fhp-ent%2Finline-content%2FI5%2F4%2FD%2F4DDAD76236BE0680CDB522F43C3539AB92BB4FA4_feature.jpg&f=1&nofb=1&ipt=afdfe03eb3e0a7c7412c752edee34bc8948721a61fded2c01cdccb430c5a2ad8",
         rating:5
     },
 
@@ -304,7 +304,7 @@ const products = [
         category:"Networking",
         price:71000,
         stock:true,
-        image:"img/products/networkSwitch.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.securewirelessworks.com.au%2Fimages%2F1930-switch-series%2FJL685A.png&f=1&nofb=1&ipt=52a0bdf58a57adca3100a98a1ee0e9f34863917eb6e6a76b339d83724a8643f5",
         rating:5
     },
 
@@ -315,7 +315,7 @@ const products = [
         category:"Networking",
         price:46000,
         stock:true,
-        image:"img/products/networkSwitch.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.cs.1worldsync.com%2Fsyndication%2Ffeeds%2Fhp-ent%2Finline-content%2FI5%2F0%2F3%2F035309EEE1BFCA1926B8875CEECF581ED9E41475_feature.jpg&f=1&nofb=1&ipt=31d452d785b12903771a57725bd8e650260be949555a7668a023f6ed90226c5c",
         rating:4
     },
 
@@ -326,7 +326,7 @@ const products = [
         category:"Wireless",
         price:17000,
         stock:true,
-        image:"img/products/netDevice.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fs13emagst.akamaized.net%2Fproducts%2F56199%2F56198269%2Fimages%2Fres_6367824ec5412d8424852a6a33fa5f68.jpg&f=1&nofb=1&ipt=2d8e461c740383c70bf8a75a2b6fdc496a2b7866f82b74f561a1ecded64db8f2",
         rating:4
     },
 
@@ -337,7 +337,7 @@ const products = [
         category:"Networking",
         price:28000,
         stock:true,
-        image:"img/products/networkSwitch.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.securewirelessworks.com.au%2Fimages%2FSwitches%2F1830-series%2FJL812A.png&f=1&nofb=1&ipt=4a8b2a1dd6e8234bf1cc3494c488ca95b968ef1dd4e12b83294faf30555b0989",
         rating:4
     },
 
@@ -348,7 +348,7 @@ const products = [
         category:"Wireless",
         price:15000,
         stock:true,
-        image:"img/products/netDevice.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn11.bigcommerce.com%2Fs-xod9czzp97%2Fimages%2Fstencil%2F1280x1280%2Fproducts%2F2059%2F4298%2F1064636810__25241.1716596025.jpg%3Fc%3D1%3Fimbypass%3Don&f=1&nofb=1&ipt=c6d1dbec7c2c101d9781349c72fd2d6012c2f826accb95d011963eaedb2e29f8",
         rating:4
     },
 
@@ -359,7 +359,7 @@ const products = [
         category:"Wireless",
         price:18000,
         stock:true,
-        image:"img/products/netDevice.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pcdigital.com.mx%2Fwp-content%2Fuploads%2F2023%2F04%2FR9B28A.png&f=1&nofb=1&ipt=9df33c87498a001b6c321d1c723247da25e8d6ac364239038ba2a9bea28ce0bf",
         rating:4
     },
 
@@ -370,7 +370,7 @@ const products = [
         category:"Networking",
         price:31000,
         stock:true,
-        image:"img/products/networkSwitch.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.mwave.com.au%2Fimages%2F400%2Fjl813a_ac71999_9413.jpg&f=1&nofb=1&ipt=3802e88f179da23f26a232758e18e1c8e167f39f4e43fd1fca7b2911493e1150",
         rating:4
     },
 
@@ -381,7 +381,7 @@ const products = [
         category:"Networking",
         price:42000,
         stock:true,
-        image:"img/products/networkSwitch.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwifi.fpt.net%2Fwp-content%2Fuploads%2F2021%2F03%2FAruba_IO_1930_24Gclass4_PoE_4SFP_SFP_195Wswtch_FT-scaled.jpg&f=1&nofb=1&ipt=16cff981ad44160294af6dd909065c0f4146b746d6204fbe71f59e15d58582fb",
         rating:5
     },
 
@@ -392,7 +392,7 @@ const products = [
         category:"Networking",
         price:46000,
         stock:true,
-        image:"img/products/networkSwitch.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.securewirelessworks.com.au%2Fimages%2F1930-switch-series%2FJL683A.png&f=1&nofb=1&ipt=d3a6679b5200de6394be7c3efcdab7b4f90cae42be87161daaba31d30b9bf4b4",
         rating:5
     },
 
@@ -403,7 +403,7 @@ const products = [
         category:"Networking",
         price:48000,
         stock:true,
-        image:"img/products/networkSwitch.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.securewirelessworks.com.au%2Fimages%2F1930-switch-series%2FJL684A.png&f=1&nofb=1&ipt=cd1f156168a76efe859d605ac289393cd316cac310f53555f0e8095b5c35ce5e",
         rating:5
     },
 
@@ -414,7 +414,7 @@ const products = [
         category:"Networking",
         price:56000,
         stock:true,
-        image:"img/products/networkSwitch.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.securewirelessworks.com.au%2Fimages%2F1930-switch-series%2FJL686A.png&f=1&nofb=1&ipt=7cabb5a9841950c41c4c399b2cebbce36e2d5077589898a6dad4ddf97d2ca569",
         rating:5
     },
 
@@ -425,7 +425,7 @@ const products = [
         category:"Accessories",
         price:1200,
         stock:true,
-        image:"img/products/router.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.idealo.com%2Ffolder%2FProduct%2F205913%2F7%2F205913757%2Fs2_produktbild_max%2Frackmount-it-hpe-aruba-1930-8g-2530-8g-rack-mount-kit-rm-hp-t1.jpg&f=1&nofb=1&ipt=69e6c3f91b7ba94c43d63a89aeb40bff31f537fe6ea59eb31955213871dc8c04",
         rating:3
     },
 
@@ -436,7 +436,7 @@ const products = [
         category:"Networking",
         price:11500,
         stock:true,
-        image:"img/products/router.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi0.wp.com%2Fshop.itegy.com.eg%2Fwp-content%2Fuploads%2F2022%2F06%2FEG-Tech-Aruba-SFP-J4858D.jpg&f=1&nofb=1&ipt=9258282742ef2af7e7498c10b5846c21eb3ce57db250ba2274af3acad12325da",
         rating:4
     },
 
@@ -447,7 +447,7 @@ const products = [
         category:"Networking",
         price:11800,
         stock:true,
-        image:"img/products/router.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffirewallbazaar.in%2Fwp-content%2Fuploads%2F2023%2F06%2FAruba-1G-SFP-LC-LX-10km-SMF-XCVR-%25E2%2580%2593-J4859D.jpg&f=1&nofb=1&ipt=b40156b09ab37836628a987ea5eae09ca1a814b871a76b7b577df2ef9dd92fc9",
         rating:4
     },
 
@@ -458,7 +458,7 @@ const products = [
         category:"Accessories",
         price:8500,
         stock:true,
-        image:"img/products/lanCable.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fassets.aten.com%2Fproduct%2Fimage%2Fcs784h.kvm.desktop-kvm-switches.45.jpg&f=1&nofb=1&ipt=a43309bb14e9c3e4b762c9d1f109beca89e888ac3b7527979a621323d5013db9",
         rating:4
     },
 
@@ -469,7 +469,7 @@ const products = [
         category:"Phones",
         price:1900,
         stock:true,
-        image:"img/products/router.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Frukminim1.flixcart.com%2Fimage%2F832%2F832%2Flandline-phone%2Fr%2Fj%2Fj%2Fbeetel-c-51-original-imaeagdrmrgpsh3z.jpeg%3Fq%3D70&f=1&nofb=1&ipt=7287eae53ee3314217c69422ad261978802d1b8cc1bd49152a9785e6b55f9388",
         rating:3
     },
 
@@ -480,7 +480,7 @@ const products = [
         category:"Phones",
         price:2300,
         stock:true,
-        image:"img/products/router.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F5.imimg.com%2Fdata5%2FSELLER%2FDefault%2F2024%2F7%2F431725726%2FIG%2FDS%2FGZ%2F6111746%2Fbeetel-m25-corded-landline-phone-1000x1000.jpg&f=1&nofb=1&ipt=d37fa6f8c2dfdfa22422b24154d42ae7e3bc58f01c1d661af4f5c46d378ceec9",
         rating:3
     },
 
@@ -491,7 +491,7 @@ const products = [
         category:"Networking",
         price:420,
         stock:true,
-        image:"img/products/lanCable.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Finprocesa.com%2Fwp-content%2Fuploads%2F2024%2F03%2F15964_1710892378.jpg&f=1&nofb=1&ipt=5948d2f7c499da86b4061d4fb28e22ecd75c02b98c9b036ce3821e090359e92a",
         rating:4
     },
 
@@ -502,7 +502,7 @@ const products = [
         category:"Networking",
         price:850,
         stock:true,
-        image:"img/products/fiberOpt.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.kenyagadgetshop.co.ke%2Fwp-content%2Fuploads%2F2024%2F02%2F3M-OS2-LC-LC-Fiber-Patch-Cable.jpg&f=1&nofb=1&ipt=2cba2a9978bbe3c77308fee2a753344ac144e84d5ee476931cd221016867a038",
         rating:4
     },
 
@@ -513,7 +513,7 @@ const products = [
         category:"Display",
         price:54000,
         stock:true,
-        image:"img/products/dellServer.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F5.imimg.com%2Fdata5%2FSELLER%2FDefault%2F2021%2F6%2FIU%2FYC%2FIP%2F4039318%2Fbenq-mw560-projector-1000x1000.jpg&f=1&nofb=1&ipt=36a66e8a1d6cecf59efb13a899fe9663f0da36ab0db9237675e2539712e6d176",
         rating:5
     },
 
@@ -524,7 +524,7 @@ const products = [
         category:"Accessories",
         price:75,
         stock:true,
-        image:"img/products/lanCable.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.I69o5_DkERQi5Athuzq2RQHaHa%3Fr%3D0%26pid%3DApi&f=1&ipt=8c359ab99fa5bb28c614445500ad0c21d901b97e22c50fa589eb70e8c701f3a5&ipo=images",
         rating:3
     },
 
@@ -535,7 +535,7 @@ const products = [
         category:"Printer",
         price:25000,
         stock:true,
-        image:"img/products/router.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F5.imimg.com%2Fdata5%2FSELLER%2FDefault%2F2025%2F11%2F558019666%2FCT%2FOT%2FLP%2F10378422%2Fbrother-dcp-b7640dwb-multifunction-printer-1000x1000.png&f=1&nofb=1&ipt=d45016e94e2dea01b4dcb9db5cdbd0780e9f0369b6040c4ed5d5f5283e1968d1",
         rating:4
     },
 
@@ -546,7 +546,7 @@ const products = [
         category:"Printer",
         price:2800,
         stock:true,
-        image:"img/products/router.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F5.imimg.com%2Fdata5%2FSELLER%2FDefault%2F2025%2F12%2F569954585%2FJQ%2FAY%2FHH%2F77142724%2Fbrother-tn-b021-toner-cartridge-for-use-hl-b2000d-b2080dw-dcp-b7500d-b75735dw-mfc-b7715dw-1000x1000.jpeg&f=1&nofb=1&ipt=a92acdd22c4e2b0dfefc36ed322fa97e2a4aa4d4abdf330db396ef150c1b1753",
         rating:4
     },
 
