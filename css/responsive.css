@@ -297,3 +297,59 @@ grid-template-columns:1fr;
     }
 
 }
+
+@media(max-width:992px){
+
+    .about-grid,
+    .leadership-grid{
+        grid-template-columns:1fr;
+    }
+
+    .mission-grid,
+    .services-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .partner-grid{
+        grid-template-columns:repeat(3,1fr);
+    }
+
+    .industry-grid{
+        grid-template-columns:repeat(3,1fr);
+    }
+
+    .counter-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .about-hero h1{
+        font-size:40px;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .mission-grid,
+    .services-grid,
+    .industry-grid,
+    .partner-grid,
+    .counter-grid{
+        grid-template-columns:1fr;
+    }
+
+    .about-hero{
+        padding:90px 0;
+    }
+
+    .about-hero h1{
+        font-size:32px;
+    }
+
+    .about-grid h2,
+    .leadership h2,
+    .about-cta h2{
+        font-size:30px;
+    }
+
+}
