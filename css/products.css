@@ -168,6 +168,14 @@
 
 }
 
+@media(max-width:600px){
+    .sidebar{
+
+        display: block;
+
+    }
+}
+
 /* ======================
       PRODUCT GRID
 ====================== */
