@@ -28,26 +28,33 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 
 <body>
 
-    <!-- ================= TOP BAR ================= -->
+     <!-- ================= TOP BAR ================= -->
+
+<div id="header">
 
     <div class="top-bar">
 
         <div class="container">
 
             <p>
-                
+               <a href="tel:+911149407466" style="color: aliceblue;">
+                 <i class="fa-solid fa-phone"></i> 
+                     +91-11-49407466 
+                </a>
             </p>
 
             <div class="top-links">
 
-                <a href="#">Track Order</a>
-                <a href="#">Support</a>
+
+                <a href="#">
+                    GST No.-<span style="font-weight: 600;"> 07AAGCG5350A1Z1 </span></a>
 
             </div>
 
         </div>
 
     </div>
+
 
 
     <!-- ================= HEADER ================= -->
@@ -62,7 +69,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-wifi-icon lucide-wifi"><path d="M12 20h.01"/><path d="M2 8.82a15 15 0 0 1 20 0"/><path d="M5 12.859a10 10 0 0 1 14 0"/><path d="M8.5 16.429a5 5 0 0 1 7 0"/></svg>
 
-                <span><a href="index.html">Geloof Solution</a></span>
+                <span> <a href="index.html">Geloof Solution</a></span>
 
                 <p style="font-size: small; margin-left: 25px;">
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin-icon lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
@@ -72,19 +79,33 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 
             <!-- Search -->
 
-            <div class="search-box">
+            <form class="search-box" id="homeSearchForm" action="products.html" method="get">
 
-                <input
-                    type="text"
-                    placeholder="Search servers, switches, routers...">
+                <div class="search-input-wrap">
+                    <input
+                        type="text"
+                        id="homeSearchInput"
+                        name="q"
+                        placeholder="Search servers, switches, routers..."
+                        autocomplete="off"
+                        aria-label="Search products">
 
-                <button>
+                    <div class="search-suggestions" id="homeSearchSuggestions" role="listbox" aria-label="Search suggestions"></div>
+                </div>
+
+                <button type="submit" aria-label="Search products">
 
                     <i class="fa-solid fa-magnifying-glass"></i>
 
                 </button>
 
-            </div>
+            </form>
+
+            <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
 
             <!-- Icons -->
 
@@ -115,7 +136,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 
     <!-- ================= NAVIGATION ================= -->
 
-    <nav>
+    <nav class="main-nav">
 
         <div class="container">
 
@@ -123,7 +144,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 
                 <li><a href="index.html#category">All Categories</a></li>
 
-                <li><a href="#">About</a></li>
+                <li><a href="about.html">About</a></li>
 
                 <li class="services-item">
                     <button class="services-toggle" type="button" aria-expanded="false">
@@ -143,17 +164,17 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
                     </div>
                 </li>
 
-                <li><a href="#">Servers</a></li>
+                <li><a href="products.html?q=server">Servers</a></li>
 
-                <li><a href="#">Networking</a></li>
+                <li><a href="products.html?q=networking">Networking</a></li>
 
-                <li><a href="#">Storage</a></li>
+                <li><a href="products.html?q=storage">Storage</a></li>
 
-                <li><a href="#">Firewalls</a></li>
+                <li><a href="products.html?q=firewall">Firewalls</a></li>
 
-                <li><a href="#">Wireless</a></li>
+                <li><a href="products.html?q=wireless">Wireless</a></li>
 
-                <li><a href="#">CCTV</a></li>
+                <li><a href="products.html?q=cctv">CCTV</a></li>
 
                 <li><a href="#">Contact</a></li>
 
@@ -162,6 +183,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         </div>
 
     </nav>
+
+</div>
 
 <section class="page-header">
 

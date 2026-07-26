@@ -1,21 +1,3 @@
-// // Load Header
-// fetch("components/header.html")
-// .then(response => response.text())
-// .then(data => {
-
-//     document.getElementById("header").innerHTML = data;
-
-// });
-
-// // Load Footer
-// fetch("components/footer.html")
-// .then(response => response.text())
-// .then(data => {
-
-//     document.getElementById("footer").innerHTML = data;
-
-// });
-
 
 const productList = document.getElementById("product-list");
 const searchInput = document.getElementById("searchProduct");
@@ -24,6 +6,13 @@ const PAGE_SIZE = 24;
 let filteredProducts = [...products];
 let renderedCount = 0;
 let loadMoreButton = null;
+
+const params = new URLSearchParams(window.location.search);
+const initialQuery = params.get("q") || "";
+
+if (searchInput) {
+    searchInput.value = initialQuery;
+}
 
 function createProductCard(product) {
 
@@ -60,7 +49,7 @@ function createProductCard(product) {
     stock.textContent = product.stock ? "✔ In Stock" : "✖ Out of Stock";
 
     const button = document.createElement("button");
-    button.textContent = "View Details";
+    button.textContent = "Request Quote";
 
     info.append(brand, title, rating, stock, button);
     card.append(imageWrap, info);

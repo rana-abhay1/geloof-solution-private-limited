@@ -26,78 +26,163 @@
 
 <body>
 
-    <div id="header">
-        <div class="top-bar">
-            <div class="container">
-                <p></p>
-                <div class="top-links">
-                    <a href="#">Track Order</a>
-                    <a href="#">Support</a>
-                </div>
+    <!-- ================= TOP BAR ================= -->
+
+<div id="header">
+
+    <div class="top-bar">
+
+        <div class="container">
+
+            <p>
+               <a href="tel:+911149407466" style="color: aliceblue;">
+                 <i class="fa-solid fa-phone"></i> 
+                     +91-11-49407466 
+                </a>
+            </p>
+
+            <div class="top-links">
+
+
+                <a href="#">
+                    GST No.-<span style="font-weight: 600;"> 07AAGCG5350A1Z1 </span></a>
+
             </div>
+
         </div>
 
-        <header>
-            <div class="container header">
-                <div class="logo">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-wifi-icon lucide-wifi"><path d="M12 20h.01"/><path d="M2 8.82a15 15 0 0 1 20 0"/><path d="M5 12.859a10 10 0 0 1 14 0"/><path d="M8.5 16.429a5 5 0 0 1 7 0"/></svg>
-                    <span><a href="index.html">Geloof Solution</a></span>
-                    <p style="font-size: small; margin-left: 25px;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin-icon lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
-                        Nehru Palace, New Delhi
-                    </p>
-                </div>
-
-                <div class="search-box">
-                    <input type="text" placeholder="Search servers, switches, routers...">
-                    <button>
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                    </button>
-                </div>
-
-                <div class="header-icons">
-                    <a href="#">
-                        <i class="fa-regular fa-user"></i>
-                    </a>
-                    <a href="https://wa.me/919716432591" target="_blank">
-                        <i class="fa-brands fa-whatsapp"></i>
-                    </a>
-                </div>
-            </div>
-        </header>
-
-        <nav>
-            <div class="container">
-                <ul>
-                    <li><a href="index.html#category">All Categories</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li class="services-item">
-                        <button class="services-toggle" type="button" aria-expanded="false">
-                            Our Services
-                            <i class="fa-solid fa-chevron-down"></i>
-                        </button>
-                        <div class="services-dropdown" id="servicesDropdown">
-                            <a href="#">IT Infrastructure Consultancy</a>
-                            <a href="#">Data Center Designing and Installation</a>
-                            <a href="#">Structured Cabling</a>
-                            <a href="#">Wireless Networking</a>
-                            <a href="#">Server and Storage Management</a>
-                            <a href="#">Network Management</a>
-                            <a href="#">Optical Fiber Cabling Services</a>
-                            <a href="#">Other IT Services</a>
-                        </div>
-                    </li>
-                    <li><a href="#">Servers</a></li>
-                    <li><a href="#">Networking</a></li>
-                    <li><a href="#">Storage</a></li>
-                    <li><a href="#">Firewalls</a></li>
-                    <li><a href="#">Wireless</a></li>
-                    <li><a href="#">CCTV</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
     </div>
+
+
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+
+        <div class="container header">
+
+            <!-- Logo -->
+
+            <div class="logo">
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-wifi-icon lucide-wifi"><path d="M12 20h.01"/><path d="M2 8.82a15 15 0 0 1 20 0"/><path d="M5 12.859a10 10 0 0 1 14 0"/><path d="M8.5 16.429a5 5 0 0 1 7 0"/></svg>
+
+                <span> <a href="index.html">Geloof Solution</a></span>
+
+                <p style="font-size: small; margin-left: 25px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin-icon lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
+                    Nehru Palace, New Delhi</p>
+
+            </div>
+
+            <!-- Search -->
+
+            <form class="search-box" id="homeSearchForm" action="products.html" method="get">
+
+                <div class="search-input-wrap">
+                    <input
+                        type="text"
+                        id="homeSearchInput"
+                        name="q"
+                        placeholder="Search servers, switches, routers..."
+                        autocomplete="off"
+                        aria-label="Search products">
+
+                    <div class="search-suggestions" id="homeSearchSuggestions" role="listbox" aria-label="Search suggestions"></div>
+                </div>
+
+                <button type="submit" aria-label="Search products">
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                </button>
+
+            </form>
+
+            <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Icons -->
+
+            <div class="header-icons">
+
+                <a href="#">
+                    <i class="fa-regular fa-user"></i>
+                </a>
+
+                <a href="https://wa.me/919716432591" target= "_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <!-- <a href="#" class="cart">
+
+                    <i class="fa-solid fa-cart-shopping"></i>
+
+                    <span>2</span>
+
+                </a> -->
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= NAVIGATION ================= -->
+
+    <nav class="main-nav">
+
+        <div class="container">
+
+            <ul>
+
+                <li><a href="index.html#category">All Categories</a></li>
+
+                <li><a href="about.html">About</a></li>
+
+                <li class="services-item">
+                    <button class="services-toggle" type="button" aria-expanded="false">
+                        Our Services
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+
+                    <div class="services-dropdown" id="servicesDropdown">
+                        <a href="#">IT Infrastructure Consultancy</a>
+                        <a href="#">Data Center Designing and Installation</a>
+                        <a href="#">Structured Cabling</a>
+                        <a href="#">Wireless Networking</a>
+                        <a href="#">Server and Storage Management</a>
+                        <a href="#">Network Management</a>
+                        <a href="#">Optical Fiber Cabling Services</a>
+                        <a href="#">Other IT Services</a>
+                    </div>
+                </li>
+
+                <li><a href="products.html?q=server">Servers</a></li>
+
+                <li><a href="products.html?q=networking">Networking</a></li>
+
+                <li><a href="products.html?q=storage">Storage</a></li>
+
+                <li><a href="products.html?q=firewall">Firewalls</a></li>
+
+                <li><a href="products.html?q=wireless">Wireless</a></li>
+
+                <li><a href="products.html?q=cctv">CCTV</a></li>
+
+                <li><a href="#">Contact</a></li>
+
+            </ul>
+
+        </div>
+
+    </nav>
+
+</div>
 
     <section class="mission">
 

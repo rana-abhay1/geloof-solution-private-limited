@@ -1305,7 +1305,7 @@ const products = [
         category:"Networking",
         price:24000,
         stock:true,
-        image:"img/products/networkSwitch.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F5.imimg.com%2Fdata5%2FSELLER%2FDefault%2F2026%2F2%2F582526302%2FFY%2FGX%2FBQ%2F262482503%2Fimage-1000x1000.jpeg&f=1&nofb=1&ipt=db0535f3b8c170395a4346bd684d7017ccf592bd1dea153c7135d3defb6fb264",
         rating:4
     },
 
@@ -1316,7 +1316,7 @@ const products = [
         category:"CCTV",
         price:3800,
         stock:true,
-        image:"img/products/netDevice.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvlebazaar.in%2Fimage%2Fcache%2Fcatalog%2FCP-PLUS-24MP-Full-HD-IP-Indoor-Wired-Dome-Camera-CP-URC-DC24PL3-Compatib%2FCP-PLUS-24MP-Full-HD-IP-Indoor-Wired-Dome-Camera-CP-URC-DC24PL3-Compatible-with--1200x1200.jpg&f=1&nofb=1&ipt=b42b170506c8f7822fd6943a68f82278c0875b573855c2ba9028fcbdf2ada99f",
         rating:4
     },
 
@@ -1327,7 +1327,7 @@ const products = [
         category:"CCTV",
         price:3300,
         stock:true,
-        image:"img/products/netDevice.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcctv.co.ke%2Fwp-content%2Fuploads%2F2024%2F03%2FCP-UNC-TA21PL3-0360.jpg&f=1&nofb=1&ipt=051cb6ffcccaa1826ea548ebe03d2cf2a0d78026148bd51db9fc5677d5aa29cd",
         rating:4
     },
 
@@ -1338,7 +1338,7 @@ const products = [
         category:"CCTV",
         price:3400,
         stock:true,
-        image:"img/products/netDevice.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F51uXieQMSLL._SL1500_.jpg&f=1&nofb=1&ipt=a82a17cc241ba6965d128305fae1e6bf521d51508f0c70a2142bdad1906c8607",
         rating:4
     },
 
@@ -1349,7 +1349,7 @@ const products = [
         category:"CCTV",
         price:52000,
         stock:true,
-        image:"img/products/servers.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F5.imimg.com%2Fdata5%2FSELLER%2FDefault%2F2023%2F5%2F310626304%2FIO%2FZW%2FWJ%2F81314046%2Fcp-plus-32-channel-nvr-cp-unr-cp-unr-4k4322-v2-1000x1000.png&f=1&nofb=1&ipt=94451f2a843c53838527fddd3029734dc67bece0edd879717554c76d3e91e812",
         rating:4
     },
 
@@ -1360,7 +1360,7 @@ const products = [
         category:"CCTV",
         price:4200,
         stock:true,
-        image:"img/products/netDevice.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffutureit.om%2Fwp-content%2Fuploads%2F2025%2F07%2FFIT-77.jpg&f=1&nofb=1&ipt=663b49bed3e855a2ef80a085e390f9751be2a33adf374fc9f06fcb259ae17b45",
         rating:4
     },
 
@@ -1371,7 +1371,7 @@ const products = [
         category:"CCTV",
         price:4600,
         stock:true,
-        image:"img/products/netDevice.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOIP.uQzkp5yTFFqjm1FQ-B-dyQHaHa%3Fr%3D0%26pid%3DApi&f=1&ipt=23a55addb33eb8785ceb827c6be64b8c66e4ed82ce3054a9559c54ca72edaa42",
         rating:4
     },
 
@@ -1382,7 +1382,7 @@ const products = [
         category:"CCTV",
         price:4700,
         stock:true,
-        image:"img/products/netDevice.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthencix.com%2Fwp-content%2Fuploads%2F2025%2F11%2FCP-UNC-DA41L3C-D-LQ.jpg&f=1&nofb=1&ipt=95d75fa17f57a5cab3dea914e6bbeaea267b1448bb0763a62027ea596438fa5b",
         rating:4
     },
 
@@ -1393,7 +1393,7 @@ const products = [
         category:"CCTV",
         price:28000,
         stock:true,
-        image:"img/products/servers.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F5.imimg.com%2Fdata5%2FSELLER%2FDefault%2F2024%2F8%2F447221369%2FZS%2FZE%2FVP%2F193372281%2Fcp-plus-8ch-2-sata-network-video-recorder-500x500.jpg&f=1&nofb=1&ipt=dd3435bad51e351e21a9fb77f6426756246e2be11f223043fe4635ca638a741a",
         rating:4
     },
 
@@ -1404,7 +1404,7 @@ const products = [
         category:"CCTV",
         price:22000,
         stock:true,
-        image:"img/products/servers.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fradox.co.ke%2Fwp-content%2Fuploads%2F2024%2F09%2FCP-Plus-08-CH-NVR-3.jpg&f=1&nofb=1&ipt=df13587701bf4f15726ff8065c0c5fb86d0683f18db7fbece88b207a5f7cb49f",
         rating:4
     },
 
@@ -1415,7 +1415,7 @@ const products = [
         category:"Networking",
         price:16000,
         stock:true,
-        image:"img/products/networkSwitch.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.cpplus.si%2Fwp-content%2Fuploads%2F2025%2F11%2Fvyr_943_CP-ANW-HPU8G2-N12.jpg&f=1&nofb=1&ipt=04af37bf0ba3994df461ae765c7283c31e6c17aa4d19be38f1b96eb9a3e479ca",
         rating:4
     },
 
@@ -1426,7 +1426,7 @@ const products = [
         category:"CCTV",
         price:18000,
         stock:true,
-        image:"img/products/servers.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsrgroup.net.in%2Fwp-content%2Fuploads%2F2021%2F11%2FCP-16CH-F.jpg&f=1&nofb=1&ipt=68909ac4aacd7c491eb1886fd523554b7ef835aa0f09dfc2a3444626bd27aa81",
         rating:4
     },
 
@@ -1437,7 +1437,7 @@ const products = [
         category:"CCTV",
         price:3150,
         stock:true,
-        image:"img/products/netDevice.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F5.imimg.com%2Fdata5%2FSELLER%2FDefault%2F2021%2F3%2FWV%2FNI%2FYP%2F23932509%2Fcp-plus-2mp-ip-bullet-camera-500x500.jpeg&f=1&nofb=1&ipt=c51af34767089d87d28350997c91dd188c6c5920fa4339478df27ab9091e9e84",
         rating:4
     },
 
@@ -1448,7 +1448,7 @@ const products = [
         category:"Power",
         price:26000,
         stock:true,
-        image:"img/products/firewall.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fshopdelta.eu%2Fshop_image%2Fproduct%2Fut2200eg-fr_ups_d.jpg&f=1&nofb=1&ipt=0d1e8c889687a1dde5783012e51fd5a404f9eb164e1b2db87cb53692bb42faa6",
         rating:4
     },
 
@@ -1459,7 +1459,7 @@ const products = [
         category:"Rack",
         price:6800,
         stock:true,
-        image:"img/products/servers.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn11.bigcommerce.com%2Fs-sp9oc95xrw%2Fimages%2Fstencil%2F608x608%2Fproducts%2F24477%2F80632%2Fdl16__75101.1716628583.png%3Fc%3D2&f=1&nofb=1&ipt=e677afded29dfc3699377bf07ba38c28d96928e671f2153be461403f966d352f",
         rating:4
     },
 
@@ -1470,7 +1470,7 @@ const products = [
         category:"Rack",
         price:7500,
         stock:true,
-        image:"img/products/servers.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.tunisianet.com.tn%2F419151-large%2Farmoire-d-link-15u600600mm-wall-mount-rack-with-glass-door.jpg&f=1&nofb=1&ipt=73b6044d3362430b43395bf7eb7f735d6d10661cc8f0ed55da9569d4173bc7ee",
         rating:4
     },
 
@@ -1481,7 +1481,7 @@ const products = [
         category:"Networking",
         price:7000,
         stock:true,
-        image:"img/products/networkSwitch.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F43%2F11%2Fd6%2F4311d6301741a6ae3f0dafbf48eac1f9.jpg&f=1&nofb=1&ipt=a0fd1139a59bf1f3e1d7d63f8686c424dd10354331bf76d0f6487a27663d0c05",
         rating:4
     },
 
@@ -1492,7 +1492,7 @@ const products = [
         category:"Networking",
         price:5200,
         stock:true,
-        image:"img/products/networkSwitch.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmicroless.com%2Fcdn%2Fproducts%2Ff29aecc442d7dae9ebb4c659bec271d6-hi.jpg&f=1&nofb=1&ipt=c4c54c74747b7bd9ee5081368ad9c0dfcc7a77ba4ee27ef004e636bf7004cf40",
         rating:4
     },
 
@@ -1503,7 +1503,7 @@ const products = [
         category:"Rack",
         price:6800,
         stock:true,
-        image:"img/products/servers.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fits.dlink.co.in%2Fassets%2Fppic_1525874888.png&f=1&nofb=1&ipt=5c48542f74e9865fabfcfcabb71e1359106989d8979bdd90fc57d74c82b71d17",
         rating:4
     },
 
@@ -1514,7 +1514,7 @@ const products = [
         category:"Rack",
         price:5200,
         stock:true,
-        image:"img/products/servers.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fits.dlink.co.in%2Fassets%2Fppic_1525874199.png&f=1&nofb=1&ipt=220f3d8dddbbd31872996d60dacb843228940223202f83503e8dc5a2e629d61d",
         rating:4
     },
 
@@ -1525,7 +1525,7 @@ const products = [
         category:"Rack",
         price:4600,
         stock:true,
-        image:"img/products/servers.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.7r4AFL4KpEtBlrlhFBoQIAHaHa%3Fr%3D0%26pid%3DApi&f=1&ipt=edab7747d428fcb9db7edcba08623d4d5d933993e64e99665a00ab1f49e6b44a",
         rating:4
     },
 
@@ -1536,7 +1536,7 @@ const products = [
         category:"Networking",
         price:5900,
         stock:true,
-        image:"img/products/lanCable.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fjo-cell.com%2Fcdn%2Fshop%2Ffiles%2FNCB-C6UGRYR-305-24-1-1200x1200.jpg%3Fv%3D1735799004%26width%3D1200&f=1&nofb=1&ipt=a739535dc93929e2db38697c42117bd11fd906aa69748bef843364c406369d6f",
         rating:4
     },
 
@@ -1547,7 +1547,7 @@ const products = [
         category:"Networking",
         price:4800,
         stock:true,
-        image:"img/products/lanCable.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.karousell.com%2Fmedia%2Fphotos%2Fproducts%2F2021%2F11%2F17%2Fdlink_cat_5e_utp_cable_305m_1637131740_43424503_progressive&f=1&nofb=1&ipt=e6f30a4569a3bb969bc1b2852f784435394a1e23d67ce032bdb4f445d44f2dd8",
         rating:4
     },
 
@@ -1558,7 +1558,7 @@ const products = [
         category:"Networking",
         price:180,
         stock:true,
-        image:"img/products/netDevice.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F5.imimg.com%2Fdata5%2FSELLER%2FDefault%2F2023%2F12%2F371183594%2FQC%2FPY%2FXR%2F33460485%2Fd-link-cat-6-i-o-keystone-500x500.jpg&f=1&nofb=1&ipt=3c13d33b09b7fd51dd728c37bbd7108f9885d6c1051c9ac45a9dc3607dc58fb2",
         rating:4
     },
 
@@ -1569,7 +1569,7 @@ const products = [
         category:"Networking",
         price:1900,
         stock:true,
-        image:"img/products/lanCable.png",
+        image:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F5.imimg.com%2Fdata5%2FSELLER%2FDefault%2F2024%2F3%2F404830590%2FFF%2FIU%2FZS%2F30602128%2F100-m-d-link-cat-6-cable-1000x1000.jpg&f=1&nofb=1&ipt=25427ed9c36f1d6102cfd9eef7610e07482a394bd056315dd203eb32fdc97d9e",
         rating:4
     },
 
